@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|c:\\users\\nikiv\\desktop\\flowershopui\\flowershop\\flowershop\\clientidinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\clientidinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|c:\\users\\nikiv\\desktop\\flowershopui\\flowershop\\flowershop\\clientsearchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\clientsearchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|c:\\users\\nikiv\\desktop\\flowershopui\\flowershop\\flowershop\\clientidinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\clientidinputform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|c:\\users\\nikiv\\desktop\\flowershopui\\flowershop\\flowershop\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\resultsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\flowershop\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|c:\\users\\nikiv\\desktop\\flowershopui\\flowershop\\flowershop\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\adminform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|c:\\users\\nikiv\\desktop\\flowershopui\\flowershop\\flowershop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|c:\\users\\nikiv\\desktop\\flowershopui\\flowershop\\flowershop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47609E3D-68D6-40FE-8852-9A50FBD804D6}|FlowerShop\\FlowerShop.csproj|solutionrelative:flowershop\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 777,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 653,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientIdInputForm.cs",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ClientIdInputForm.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\ClientIdInputForm.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ClientIdInputForm.cs",
+              "RelativeToolTip": "FlowerShop\\ClientIdInputForm.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAUwBwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:20:06.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientIdInputForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ClientIdInputForm.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\ClientIdInputForm.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ClientIdInputForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FlowerShop\\ClientIdInputForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:20:10.783Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientSearchForm.cs",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ClientSearchForm.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\ClientSearchForm.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ClientSearchForm.cs",
+              "RelativeToolTip": "FlowerShop\\ClientSearchForm.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAjwLAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:04:32.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\Program.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\Program.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\Program.cs",
+              "RelativeToolTip": "FlowerShop\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T06:05:05.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ResultsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ResultsForm.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\ResultsForm.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\ResultsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FlowerShop\\ResultsForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:44:35.537Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "loginForm.cs",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\loginForm.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\loginForm.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\loginForm.cs",
+              "RelativeToolTip": "FlowerShop\\loginForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAADwvxAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:41:54.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminForm.cs",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\AdminForm.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\AdminForm.cs",
+              "RelativeToolTip": "FlowerShop\\AdminForm.cs",
+              "ViewState": "AgIAADABAAAAAAAAAADwv0wBAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T18:59:46.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\AdminForm.cs",
+              "RelativeDocumentMoniker": "FlowerShop\\AdminForm.cs",
+              "ToolTip": "C:\\Users\\nikiv\\Desktop\\FlowerShopUI\\FlowerShop\\FlowerShop\\AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FlowerShop\\AdminForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:46:15.63Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
