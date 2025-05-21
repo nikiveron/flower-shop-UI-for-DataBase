@@ -95,3 +95,4 @@ C:\Users\nikiv\Desktop\FlowerShopUI\FlowerShop\FlowerShop\obj\Debug\FlowerShop.C
 C:\Users\nikiv\Desktop\FlowerShopUI\FlowerShop\FlowerShop\obj\Debug\FlowerShop.DatePeriodForm.resources
 C:\Users\nikiv\Desktop\FlowerShopUI\FlowerShop\FlowerShop\obj\Debug\FlowerShop.ProductSearchForm.resources
 C:\Users\nikiv\Desktop\FlowerShopUI\FlowerShop\FlowerShop\obj\Debug\FlowerShop.BouquetSearchForm.resources
+C:\Users\nikiv\Desktop\FlowerShopUI\FlowerShop\FlowerShop\obj\Debug\FlowerShop.RegularForm.resources

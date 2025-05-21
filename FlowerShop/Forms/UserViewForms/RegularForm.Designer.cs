@@ -1,6 +1,6 @@
 ﻿namespace FlowerShop
 {
-    partial class AdminForm
+    partial class RegularForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,13 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegularForm));
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.buttonAccounting = new System.Windows.Forms.Button();
-            this.buttonUpdate = new System.Windows.Forms.Button();
-            this.buttonDelete = new System.Windows.Forms.Button();
-            this.buttonAdd = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPageClients = new System.Windows.Forms.TabPage();
             this.buttonClientPurchases = new System.Windows.Forms.Button();
@@ -53,15 +50,15 @@
             this.buttonProductPrice = new System.Windows.Forms.Button();
             this.dataGridViewProduct = new System.Windows.Forms.DataGridView();
             this.tabPageBouquet = new System.Windows.Forms.TabPage();
+            this.buttonBouquetSearch = new System.Windows.Forms.Button();
             this.dataGridViewBouquet = new System.Windows.Forms.DataGridView();
             this.tabPageFlower = new System.Windows.Forms.TabPage();
+            this.buttonSearchFlower = new System.Windows.Forms.Button();
             this.dataGridViewFlower = new System.Windows.Forms.DataGridView();
             this.tabPageOther = new System.Windows.Forms.TabPage();
+            this.buttonSearchOther = new System.Windows.Forms.Button();
             this.dataGridViewOther = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.buttonBouquetSearch = new System.Windows.Forms.Button();
-            this.buttonSearchFlower = new System.Windows.Forms.Button();
-            this.buttonSearchOther = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPageClients.SuspendLayout();
@@ -97,9 +94,6 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(225)))), ((int)(((byte)(255)))));
             this.panel1.Controls.Add(this.buttonAccounting);
-            this.panel1.Controls.Add(this.buttonUpdate);
-            this.panel1.Controls.Add(this.buttonDelete);
-            this.panel1.Controls.Add(this.buttonAdd);
             this.panel1.Controls.Add(this.tabControl1);
             this.panel1.Controls.Add(this.panel2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -120,39 +114,6 @@
             this.buttonAccounting.UseVisualStyleBackColor = true;
             this.buttonAccounting.Click += new System.EventHandler(this.buttonAccounting_Click);
             // 
-            // buttonUpdate
-            // 
-            this.buttonUpdate.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonUpdate.Location = new System.Drawing.Point(196, 600);
-            this.buttonUpdate.Name = "buttonUpdate";
-            this.buttonUpdate.Size = new System.Drawing.Size(150, 50);
-            this.buttonUpdate.TabIndex = 4;
-            this.buttonUpdate.Text = "Изменить";
-            this.buttonUpdate.UseVisualStyleBackColor = true;
-            this.buttonUpdate.Click += new System.EventHandler(this.buttonUpdate_Click);
-            // 
-            // buttonDelete
-            // 
-            this.buttonDelete.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonDelete.Location = new System.Drawing.Point(362, 600);
-            this.buttonDelete.Name = "buttonDelete";
-            this.buttonDelete.Size = new System.Drawing.Size(150, 50);
-            this.buttonDelete.TabIndex = 3;
-            this.buttonDelete.Text = "Удалить";
-            this.buttonDelete.UseVisualStyleBackColor = true;
-            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
-            // 
-            // buttonAdd
-            // 
-            this.buttonAdd.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonAdd.Location = new System.Drawing.Point(30, 600);
-            this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(150, 50);
-            this.buttonAdd.TabIndex = 2;
-            this.buttonAdd.Text = "Добавить";
-            this.buttonAdd.UseVisualStyleBackColor = true;
-            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
-            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPageClients);
@@ -164,7 +125,9 @@
             this.tabControl1.Controls.Add(this.tabPageOther);
             this.tabControl1.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.tabControl1.Location = new System.Drawing.Point(20, 86);
+            this.tabControl1.Multiline = true;
             this.tabControl1.Name = "tabControl1";
+            this.tabControl1.RightToLeftLayout = true;
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1246, 493);
             this.tabControl1.TabIndex = 1;
@@ -368,6 +331,17 @@
             this.tabPageBouquet.UseVisualStyleBackColor = true;
             this.tabPageBouquet.Enter += new System.EventHandler(this.tabPageBouquet_Enter);
             // 
+            // buttonBouquetSearch
+            // 
+            this.buttonBouquetSearch.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.buttonBouquetSearch.Location = new System.Drawing.Point(938, 20);
+            this.buttonBouquetSearch.Name = "buttonBouquetSearch";
+            this.buttonBouquetSearch.Size = new System.Drawing.Size(282, 50);
+            this.buttonBouquetSearch.TabIndex = 8;
+            this.buttonBouquetSearch.Text = "Найти букет";
+            this.buttonBouquetSearch.UseVisualStyleBackColor = true;
+            this.buttonBouquetSearch.Click += new System.EventHandler(this.buttonSearchBouquet_Click);
+            // 
             // dataGridViewBouquet
             // 
             this.dataGridViewBouquet.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -390,6 +364,17 @@
             this.tabPageFlower.Text = "Цветы";
             this.tabPageFlower.UseVisualStyleBackColor = true;
             this.tabPageFlower.Enter += new System.EventHandler(this.tabPageFlower_Enter);
+            // 
+            // buttonSearchFlower
+            // 
+            this.buttonSearchFlower.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.buttonSearchFlower.Location = new System.Drawing.Point(936, 19);
+            this.buttonSearchFlower.Name = "buttonSearchFlower";
+            this.buttonSearchFlower.Size = new System.Drawing.Size(282, 50);
+            this.buttonSearchFlower.TabIndex = 9;
+            this.buttonSearchFlower.Text = "Найти цветы";
+            this.buttonSearchFlower.UseVisualStyleBackColor = true;
+            this.buttonSearchFlower.Click += new System.EventHandler(this.buttonSearchFlower_Click);
             // 
             // dataGridViewFlower
             // 
@@ -414,6 +399,17 @@
             this.tabPageOther.UseVisualStyleBackColor = true;
             this.tabPageOther.Enter += new System.EventHandler(this.tabPageOther_Enter);
             // 
+            // buttonSearchOther
+            // 
+            this.buttonSearchOther.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.buttonSearchOther.Location = new System.Drawing.Point(937, 21);
+            this.buttonSearchOther.Name = "buttonSearchOther";
+            this.buttonSearchOther.Size = new System.Drawing.Size(282, 50);
+            this.buttonSearchOther.TabIndex = 10;
+            this.buttonSearchOther.Text = "Найти прочие товары";
+            this.buttonSearchOther.UseVisualStyleBackColor = true;
+            this.buttonSearchOther.Click += new System.EventHandler(this.buttonSearchOther_Click);
+            // 
             // dataGridViewOther
             // 
             this.dataGridViewOther.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -435,49 +431,17 @@
             this.panel2.Size = new System.Drawing.Size(1278, 67);
             this.panel2.TabIndex = 0;
             // 
-            // buttonBouquetSearch
-            // 
-            this.buttonBouquetSearch.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.buttonBouquetSearch.Location = new System.Drawing.Point(938, 20);
-            this.buttonBouquetSearch.Name = "buttonBouquetSearch";
-            this.buttonBouquetSearch.Size = new System.Drawing.Size(282, 50);
-            this.buttonBouquetSearch.TabIndex = 8;
-            this.buttonBouquetSearch.Text = "Найти букет";
-            this.buttonBouquetSearch.UseVisualStyleBackColor = true;
-            this.buttonBouquetSearch.Click += new System.EventHandler(this.buttonBouquetSearch_Click);
-            // 
-            // buttonSearchFlower
-            // 
-            this.buttonSearchFlower.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.buttonSearchFlower.Location = new System.Drawing.Point(936, 19);
-            this.buttonSearchFlower.Name = "buttonSearchFlower";
-            this.buttonSearchFlower.Size = new System.Drawing.Size(282, 50);
-            this.buttonSearchFlower.TabIndex = 9;
-            this.buttonSearchFlower.Text = "Найти цветы";
-            this.buttonSearchFlower.UseVisualStyleBackColor = true;
-            this.buttonSearchFlower.Click += new System.EventHandler(this.buttonSearchFlower_Click);
-            // 
-            // buttonSearchOther
-            // 
-            this.buttonSearchOther.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.buttonSearchOther.Location = new System.Drawing.Point(937, 21);
-            this.buttonSearchOther.Name = "buttonSearchOther";
-            this.buttonSearchOther.Size = new System.Drawing.Size(282, 50);
-            this.buttonSearchOther.TabIndex = 10;
-            this.buttonSearchOther.Text = "Найти прочие товары";
-            this.buttonSearchOther.UseVisualStyleBackColor = true;
-            this.buttonSearchOther.Click += new System.EventHandler(this.buttonSearchOther_Click);
-            // 
-            // AdminForm
+            // RegularForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1278, 686);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "AdminForm";
+            this.Name = "RegularForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Цветочный магазин (админ)";
+            this.Text = "Цветочный магазин (обычный пользователь)";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.RegularForm_FormClosing);
             this.panel1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
             this.tabPageClients.ResumeLayout(false);
@@ -519,9 +483,6 @@
         private System.Windows.Forms.DataGridView dataGridViewBouquet;
         private System.Windows.Forms.DataGridView dataGridViewFlower;
         private System.Windows.Forms.DataGridView dataGridViewOther;
-        private System.Windows.Forms.Button buttonAdd;
-        private System.Windows.Forms.Button buttonDelete;
-        private System.Windows.Forms.Button buttonUpdate;
         private System.Windows.Forms.Button buttonClientSearch;
         private System.Windows.Forms.Button buttonClientPurchases;
         private System.Windows.Forms.Button buttonClientDiscount;

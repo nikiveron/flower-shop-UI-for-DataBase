@@ -405,5 +405,11 @@ namespace FlowerShop
             BouquetSearchForm searchForm = new BouquetSearchForm("buttonSearchOther_Click");
             searchForm.ShowDialog();
         }
+
+        private void AdminForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            loginForm login = new loginForm();
+            login.ShowDialog();
+        }
     }
 }

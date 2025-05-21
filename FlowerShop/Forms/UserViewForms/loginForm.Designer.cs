@@ -144,6 +144,7 @@
             this.Name = "loginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Авторизация";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.loginForm_FormClosed);
             this.Load += new System.EventHandler(this.loginForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

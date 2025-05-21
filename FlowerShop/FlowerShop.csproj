@@ -158,256 +158,256 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddBouquetForm.cs">
+    <Compile Include="Forms\AddForms\AddBouquetForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddBouquetForm.Designer.cs">
+    <Compile Include="Forms\AddForms\AddBouquetForm.Designer.cs">
       <DependentUpon>AddBouquetForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddClientForm.cs">
+    <Compile Include="Forms\AddForms\AddClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddClientForm.Designer.cs">
+    <Compile Include="Forms\AddForms\AddClientForm.Designer.cs">
       <DependentUpon>AddClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddDiscountForm.cs">
+    <Compile Include="Forms\AddForms\AddDiscountForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddDiscountForm.Designer.cs">
+    <Compile Include="Forms\AddForms\AddDiscountForm.Designer.cs">
       <DependentUpon>AddDiscountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddFlowerForm.cs">
+    <Compile Include="Forms\AddForms\AddFlowerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddFlowerForm.Designer.cs">
+    <Compile Include="Forms\AddForms\AddFlowerForm.Designer.cs">
       <DependentUpon>AddFlowerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddOtherForm.cs">
+    <Compile Include="Forms\AddForms\AddOtherForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddOtherForm.Designer.cs">
+    <Compile Include="Forms\AddForms\AddOtherForm.Designer.cs">
       <DependentUpon>AddOtherForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddProductForm.cs">
+    <Compile Include="Forms\AddForms\AddProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProductForm.Designer.cs">
+    <Compile Include="Forms\AddForms\AddProductForm.Designer.cs">
       <DependentUpon>AddProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddPurchaseForm.cs">
+    <Compile Include="Forms\AddForms\AddPurchaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddPurchaseForm.Designer.cs">
+    <Compile Include="Forms\AddForms\AddPurchaseForm.Designer.cs">
       <DependentUpon>AddPurchaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminForm.cs">
+    <Compile Include="Forms\UserViewForms\AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminForm.Designer.cs">
+    <Compile Include="Forms\UserViewForms\AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="BouquetSearchForm.cs">
+    <Compile Include="Forms\DataTableInfoForms\BouquetSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="BouquetSearchForm.Designer.cs">
+    <Compile Include="Forms\DataTableInfoForms\BouquetSearchForm.Designer.cs">
       <DependentUpon>BouquetSearchForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientIdInputForm.cs">
+    <Compile Include="Forms\DataTableInfoForms\ClientIdInputForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientIdInputForm.Designer.cs">
+    <Compile Include="Forms\DataTableInfoForms\ClientIdInputForm.Designer.cs">
       <DependentUpon>ClientIdInputForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientPurchasesForm.cs">
+    <Compile Include="Forms\DataTableInfoForms\ClientPurchasesForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientPurchasesForm.Designer.cs">
+    <Compile Include="Forms\DataTableInfoForms\ClientPurchasesForm.Designer.cs">
       <DependentUpon>ClientPurchasesForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ClientSearchForm.cs">
+    <Compile Include="Forms\DataTableInfoForms\ClientSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClientSearchForm.Designer.cs">
+    <Compile Include="Forms\DataTableInfoForms\ClientSearchForm.Designer.cs">
       <DependentUpon>ClientSearchForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatePeriodForm.cs">
+    <Compile Include="Forms\DataTableInfoForms\DatePeriodForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatePeriodForm.Designer.cs">
+    <Compile Include="Forms\DataTableInfoForms\DatePeriodForm.Designer.cs">
       <DependentUpon>DatePeriodForm.cs</DependentUpon>
     </Compile>
     <Compile Include="DB.cs" />
-    <Compile Include="DeleteBouquetForm.cs">
+    <Compile Include="Forms\DeleteForms\DeleteBouquetForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteBouquetForm.Designer.cs">
+    <Compile Include="Forms\DeleteForms\DeleteBouquetForm.Designer.cs">
       <DependentUpon>DeleteBouquetForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteClientForm.cs">
+    <Compile Include="Forms\DeleteForms\DeleteClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteClientForm.Designer.cs">
+    <Compile Include="Forms\DeleteForms\DeleteClientForm.Designer.cs">
       <DependentUpon>DeleteClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteDiscountForm.cs">
+    <Compile Include="Forms\DeleteForms\DeleteDiscountForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteDiscountForm.Designer.cs">
+    <Compile Include="Forms\DeleteForms\DeleteDiscountForm.Designer.cs">
       <DependentUpon>DeleteDiscountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteFlowerForm.cs">
+    <Compile Include="Forms\DeleteForms\DeleteFlowerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteFlowerForm.Designer.cs">
+    <Compile Include="Forms\DeleteForms\DeleteFlowerForm.Designer.cs">
       <DependentUpon>DeleteFlowerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteOtherForm.cs">
+    <Compile Include="Forms\DeleteForms\DeleteOtherForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteOtherForm.Designer.cs">
+    <Compile Include="Forms\DeleteForms\DeleteOtherForm.Designer.cs">
       <DependentUpon>DeleteOtherForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeleteProductForm.cs">
+    <Compile Include="Forms\DeleteForms\DeleteProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeleteProductForm.Designer.cs">
+    <Compile Include="Forms\DeleteForms\DeleteProductForm.Designer.cs">
       <DependentUpon>DeleteProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="DeletePurchaseForm.cs">
+    <Compile Include="Forms\DeleteForms\DeletePurchaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DeletePurchaseForm.Designer.cs">
+    <Compile Include="Forms\DeleteForms\DeletePurchaseForm.Designer.cs">
       <DependentUpon>DeletePurchaseForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="loginForm.cs">
+    <Compile Include="Forms\UserViewForms\loginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="loginForm.Designer.cs">
+    <Compile Include="Forms\UserViewForms\loginForm.Designer.cs">
       <DependentUpon>loginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ProductSearchForm.cs">
+    <Compile Include="Forms\DataTableInfoForms\ProductSearchForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ProductSearchForm.Designer.cs">
+    <Compile Include="Forms\DataTableInfoForms\ProductSearchForm.Designer.cs">
       <DependentUpon>ProductSearchForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RegularForm.cs">
+    <Compile Include="Forms\UserViewForms\RegularForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegularForm.Designer.cs">
+    <Compile Include="Forms\UserViewForms\RegularForm.Designer.cs">
       <DependentUpon>RegularForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ResultsForm.cs">
+    <Compile Include="Forms\DataTableInfoForms\ResultsForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ResultsForm.Designer.cs">
+    <Compile Include="Forms\DataTableInfoForms\ResultsForm.Designer.cs">
       <DependentUpon>ResultsForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateBouquetForm.cs">
+    <Compile Include="Forms\UpdateForms\UpdateBouquetForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateBouquetForm.Designer.cs">
+    <Compile Include="Forms\UpdateForms\UpdateBouquetForm.Designer.cs">
       <DependentUpon>UpdateBouquetForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateClientForm.cs">
+    <Compile Include="Forms\UpdateForms\UpdateClientForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateClientForm.Designer.cs">
+    <Compile Include="Forms\UpdateForms\UpdateClientForm.Designer.cs">
       <DependentUpon>UpdateClientForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateDiscountForm.cs">
+    <Compile Include="Forms\UpdateForms\UpdateDiscountForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateDiscountForm.Designer.cs">
+    <Compile Include="Forms\UpdateForms\UpdateDiscountForm.Designer.cs">
       <DependentUpon>UpdateDiscountForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateFlowerForm.cs">
+    <Compile Include="Forms\UpdateForms\UpdateFlowerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateFlowerForm.Designer.cs">
+    <Compile Include="Forms\UpdateForms\UpdateFlowerForm.Designer.cs">
       <DependentUpon>UpdateFlowerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateOtherForm.cs">
+    <Compile Include="Forms\UpdateForms\UpdateOtherForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateOtherForm.Designer.cs">
+    <Compile Include="Forms\UpdateForms\UpdateOtherForm.Designer.cs">
       <DependentUpon>UpdateOtherForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateProductForm.cs">
+    <Compile Include="Forms\UpdateForms\UpdateProductForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateProductForm.Designer.cs">
+    <Compile Include="Forms\UpdateForms\UpdateProductForm.Designer.cs">
       <DependentUpon>UpdateProductForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdatePurchaseForm.cs">
+    <Compile Include="Forms\UpdateForms\UpdatePurchaseForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdatePurchaseForm.Designer.cs">
+    <Compile Include="Forms\UpdateForms\UpdatePurchaseForm.Designer.cs">
       <DependentUpon>UpdatePurchaseForm.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddBouquetForm.resx">
+    <EmbeddedResource Include="Forms\AddForms\AddBouquetForm.resx">
       <DependentUpon>AddBouquetForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddClientForm.resx">
+    <EmbeddedResource Include="Forms\AddForms\AddClientForm.resx">
       <DependentUpon>AddClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddDiscountForm.resx">
+    <EmbeddedResource Include="Forms\AddForms\AddDiscountForm.resx">
       <DependentUpon>AddDiscountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddFlowerForm.resx">
+    <EmbeddedResource Include="Forms\AddForms\AddFlowerForm.resx">
       <DependentUpon>AddFlowerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddOtherForm.resx">
+    <EmbeddedResource Include="Forms\AddForms\AddOtherForm.resx">
       <DependentUpon>AddOtherForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddProductForm.resx">
+    <EmbeddedResource Include="Forms\AddForms\AddProductForm.resx">
       <DependentUpon>AddProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddPurchaseForm.resx">
+    <EmbeddedResource Include="Forms\AddForms\AddPurchaseForm.resx">
       <DependentUpon>AddPurchaseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminForm.resx">
+    <EmbeddedResource Include="Forms\UserViewForms\AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="BouquetSearchForm.resx">
+    <EmbeddedResource Include="Forms\DataTableInfoForms\BouquetSearchForm.resx">
       <DependentUpon>BouquetSearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientIdInputForm.resx">
+    <EmbeddedResource Include="Forms\DataTableInfoForms\ClientIdInputForm.resx">
       <DependentUpon>ClientIdInputForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ClientSearchForm.resx">
+    <EmbeddedResource Include="Forms\DataTableInfoForms\ClientSearchForm.resx">
       <DependentUpon>ClientSearchForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatePeriodForm.resx">
+    <EmbeddedResource Include="Forms\DataTableInfoForms\DatePeriodForm.resx">
       <DependentUpon>DatePeriodForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteBouquetForm.resx">
+    <EmbeddedResource Include="Forms\DeleteForms\DeleteBouquetForm.resx">
       <DependentUpon>DeleteBouquetForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteClientForm.resx">
+    <EmbeddedResource Include="Forms\DeleteForms\DeleteClientForm.resx">
       <DependentUpon>DeleteClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteDiscountForm.resx">
+    <EmbeddedResource Include="Forms\DeleteForms\DeleteDiscountForm.resx">
       <DependentUpon>DeleteDiscountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteFlowerForm.resx">
+    <EmbeddedResource Include="Forms\DeleteForms\DeleteFlowerForm.resx">
       <DependentUpon>DeleteFlowerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteOtherForm.resx">
+    <EmbeddedResource Include="Forms\DeleteForms\DeleteOtherForm.resx">
       <DependentUpon>DeleteOtherForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeleteProductForm.resx">
+    <EmbeddedResource Include="Forms\DeleteForms\DeleteProductForm.resx">
       <DependentUpon>DeleteProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DeletePurchaseForm.resx">
+    <EmbeddedResource Include="Forms\DeleteForms\DeletePurchaseForm.resx">
       <DependentUpon>DeletePurchaseForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="loginForm.resx">
+    <EmbeddedResource Include="Forms\UserViewForms\loginForm.resx">
       <DependentUpon>loginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ProductSearchForm.resx">
+    <EmbeddedResource Include="Forms\DataTableInfoForms\ProductSearchForm.resx">
       <DependentUpon>ProductSearchForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -420,28 +420,31 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="ResultsForm.resx">
+    <EmbeddedResource Include="Forms\UserViewForms\RegularForm.resx">
+      <DependentUpon>RegularForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\DataTableInfoForms\ResultsForm.resx">
       <DependentUpon>ResultsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateBouquetForm.resx">
+    <EmbeddedResource Include="Forms\UpdateForms\UpdateBouquetForm.resx">
       <DependentUpon>UpdateBouquetForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateClientForm.resx">
+    <EmbeddedResource Include="Forms\UpdateForms\UpdateClientForm.resx">
       <DependentUpon>UpdateClientForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateDiscountForm.resx">
+    <EmbeddedResource Include="Forms\UpdateForms\UpdateDiscountForm.resx">
       <DependentUpon>UpdateDiscountForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateFlowerForm.resx">
+    <EmbeddedResource Include="Forms\UpdateForms\UpdateFlowerForm.resx">
       <DependentUpon>UpdateFlowerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateOtherForm.resx">
+    <EmbeddedResource Include="Forms\UpdateForms\UpdateOtherForm.resx">
       <DependentUpon>UpdateOtherForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateProductForm.resx">
+    <EmbeddedResource Include="Forms\UpdateForms\UpdateProductForm.resx">
       <DependentUpon>UpdateProductForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdatePurchaseForm.resx">
+    <EmbeddedResource Include="Forms\UpdateForms\UpdatePurchaseForm.resx">
       <DependentUpon>UpdatePurchaseForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
@@ -476,6 +479,7 @@
     <Content Include="images\login.png" />
     <Content Include="images\password.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
